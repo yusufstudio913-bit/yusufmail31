@@ -46,6 +46,5 @@ workflows:
 
     publishing:
       app_store_connect:
-        apple_id: $APPLE_ID_EMAIL
-        password: $APPLE_APP_PASSWORD
+        api_key: $APP_STORE_CONNECT_API_KEY
         submit_to_testflight: true
